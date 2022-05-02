@@ -1,0 +1,62 @@
+.navbar{
+width:100%;
+z-index: 10;
+ 
+ background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+  .jumbotron{
+ 
+  color:white;
+  padding: 100px;
+  text-align:center;
+  font-family: 'Tangerine', serif;
+   background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+   background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+ 
+ 
+  }
+  .brand-icon{
+  font-size: 100px
+  }
+  .img{
+  background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ptg02q5ysh5k6xc6dree");
+  background-size: 100px;
+ 
+  }
+  .signupform{
+  width:50%;
+  text-align: center;
+  padding-left: 10px;
+ 
+  }
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+ 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+ 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+ 
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+      background-color: #eee;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+ 
+  .signup{
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+   background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+ 
+  }
+  
